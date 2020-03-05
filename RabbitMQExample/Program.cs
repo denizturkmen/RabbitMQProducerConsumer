@@ -15,7 +15,7 @@ namespace RabbitMQExample
         {
             _publisher = new Publisher(_queueName,"Sanane");
             _subscribee = new Subscribee(_queueName);
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
